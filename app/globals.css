@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+html {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    .menu {
+        font-size: 16px;
+        color: #18191F;
+    }
+
+    .login-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 14px;
+        color: #4CAF4F;
+        width: 90px;
+        height: 40px;
+    }
+}
+
+.green-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: #4CAF4F;
+    border-radius: 6px;
+
+    color: white;
+    font-size: 14px;
+}
